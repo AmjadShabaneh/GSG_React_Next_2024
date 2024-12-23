@@ -1,0 +1,38 @@
+ .equal{
+    background-color: rgb(25, 213, 16);
+    &:hover{
+        background-color: rgb(30, 187, 22);
+    }
+    &:focus{
+        background-color: rgb(42, 151, 69);
+    }
+}
+
+
+button {
+    border-radius: 12px;
+    border: 1px solid transparent;
+    text-align: center;
+    line-height: 50px;
+    height: 55px;
+    width: 55px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #646cff;
+    cursor: pointer;
+    transition: all ease-in 0.25s;
+    color: white;
+  }
+  button:hover {
+    background-color: #464dc8;
+  }
+  
+  button:focus,
+  button:focus-visible {
+    outline: none;
+    background-color: #373ebd;
+    
+    
+  }
+ 
