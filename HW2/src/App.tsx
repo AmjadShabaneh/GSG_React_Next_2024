@@ -43,9 +43,10 @@ function App() {
 
 
   setTasks([...tasks,newTask]);
+  setError('')
   }else{
     setError("Please enter task ");
-    console.log(error)
+  
   }
   
 
@@ -73,6 +74,7 @@ function App() {
     <>
     
       <AddTodo addTask={(title,urgent)=>{addTask(title,urgent)}}/>
+        <div className="error">{error}</div>
       <Counter name='Created tasks' counter={createdTasks}/>
       <Counter name='Urgent tasks' counter={urgentTasks}/>
       <Counter name='Completed tasks' counter={completedTasks}/>
