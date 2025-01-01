@@ -1,0 +1,25 @@
+.counter-card{
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    padding: 5px;
+    margin-top: 50px;
+    border-radius: 16px;
+    text-align: center;
+    margin-inline: 5px;
+    padding-top: 2px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.counter-name{
+    font-size: 18px;
+    margin-top: 0px;
+    color: rgba(19, 233, 19, 0.838);
+    font-weight: 500;
+    margin-bottom: 0px;
+    
+    
+}
+.counter-num{
+    font-size: 18px;
+    color:rgba(19, 233, 19, 0.838) ;
+}

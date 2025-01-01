@@ -1,0 +1,39 @@
+.todos{
+    margin-top: 50px;
+}
+.todo-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(250, 251, 251);
+    margin-block:20px ;
+    padding: 10px;
+    border-radius: 16px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    .checkbox{
+        margin-inline: 10px;
+    }
+    .todo-title{
+        font-size: 18px;
+    }
+    .delete{
+       background-color: initial;
+       border: none;
+
+    }
+    .urgent{
+        color: rgb(19, 233, 19);
+    }
+    .completed{
+        text-decoration: line-through;
+    }
+    .delete{
+        transition: all ease-out 300ms;
+        border-radius: 8px;
+    }
+    .delete:hover{
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+}

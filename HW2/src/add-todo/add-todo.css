@@ -1,0 +1,50 @@
+.todo-form{
+    width: 100%;
+    display: block;
+    width: 600px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 16px;
+}
+.input{
+    border:2px solid;
+    border-radius: 8px;
+    padding: 5px;
+    border-color: rgb(19, 233, 19);
+    transition: all 300ms ease;
+   
+   
+    &:focus{
+        outline-offset: 5px;
+        outline-color: rgb(19, 233, 19);  
+        
+        
+    }
+    &::placeholder{
+        color: rgba(19, 233, 19, 0.416);
+    }
+}
+.input.todo{
+    width:95%;
+    font-size: 18px;
+    color: rgb(19, 233, 19) ;
+    height: 30px;
+}
+.checkbox{
+    margin: 10px 0;
+    
+  
+}
+.button{
+    background-color: rgb(19, 233, 19);
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    &:hover{
+        background-color: rgb(49, 194, 49);
+    }
+}
